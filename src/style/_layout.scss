@@ -1,0 +1,42 @@
+#home,
+#header,
+#main,
+#footer {
+    position: relative;
+    display: block;
+    margin: 32px 0;
+    box-sizing: border-box;
+}
+
+#home {
+    margin: 48px 64px;
+}
+
+#main {
+    font-size: 0;
+}
+
+#mainContent {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 75%;
+    vertical-align: top;
+    font-size: 14px;
+    padding-right: 32px;
+}
+
+#sideBar {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+#footer {
+    border-top: 1px solid #0681ba;
+    padding-top: 10px;
+    text-align: center
+}

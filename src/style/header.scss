@@ -1,0 +1,50 @@
+#header {
+    border-bottom: 1px solid #0681ba;
+    text-align: right;
+}
+
+#blogTitle {
+    .title {
+        font-size: 32px
+    }
+    .subtitle {
+        color: #999;
+        font-size: 12px;
+        margin: 6px 0;
+    }
+}
+
+#navigator {
+    position: relative;
+    text-align: right;
+    #navList {
+        position: relative;
+        display: inline-block
+    }
+    #navList li {
+        display: inline-block
+    }
+    .menu {
+        display: block;
+        width: 5em;
+        font-size: 16px;
+        padding: 6px 0;
+        text-align: center;
+    }
+    .menu:hover {
+        color: #fff;
+        background-color: #0681ba;
+    }
+}
+
+#navigator {
+    .blogStats {
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        bottom: 6px;
+        color: #999;
+        font-size: 12px;
+        font-style: italic;
+    }
+}

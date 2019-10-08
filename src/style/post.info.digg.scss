@@ -1,0 +1,74 @@
+#div_digg {
+    position: fixed;
+    display: block;
+    bottom: 32px;
+    float: unset;
+    width: unset;
+    margin: 0;
+    padding: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #ccc;
+    text-align: center;
+    z-index: 1000;
+}
+
+.buryit,
+.diggit {
+    position: relative;
+    float: unset;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background: unset;
+    color: #f60;
+    width: 48px;
+    height: 36px;
+    vertical-align: text-bottom;
+    font-size: 32px;
+    overflow: visible;
+    &::before {
+        position: absolute;
+        font-family: 'FontAwesome';
+        left: 0;
+        top: 0;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+    .diggnum,
+    .burynum {
+        position: absolute;
+        bottom: 0;
+        left: 36px;
+        font-size: 16px;
+        font-style: italic;
+    }
+    .diggnum {
+        color: #ea4335;
+    }
+    .burynum {
+        color: #999;
+    }
+    &:hover {
+        font-size: 36px;
+        color: #f66;
+    }
+}
+
+.diggit {
+    &::before {
+        content: "\f164";
+    }
+}
+
+.buryit {
+    margin-left: 12px;
+    &::before {
+        content: "\f165";
+    }
+}
+
+.diggword {
+    margin: 0;
+    padding: 0;
+}
